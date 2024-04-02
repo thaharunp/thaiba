@@ -1,0 +1,12 @@
+#hw{
+    background-color: brown;
+    border: 12px solid;
+    margin:10px;
+    padding:30px;
+}
+p,h1.common{
+    color: green;
+}
+*{
+    background-color: greenyellow;
+}
