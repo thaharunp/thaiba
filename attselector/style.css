@@ -1,0 +1,9 @@
+a{
+    background-color: blueviolet;
+}
+a[target]{
+    background-color: yellow;
+}
+*{
+    background-color: blue;
+}
