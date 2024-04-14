@@ -3,30 +3,98 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Responsive Design</title>
+    <link rel="stylesheet" href="./bootstrap.css">
+    <style>
+        .box{
+            border: 2px solid blue;
+        }
+    </style>
 </head>
 <body>
-    <div class="container mt-5">
+    <header>
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+            <a href="./index.html" class="navbar-brand">Logo</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+             <span class="navber-toggler-icon"></span>       
+            </button>
+            <div class="ml-auto">
+                <ul class="navbar-nav">
+                    <li><a class="nav-link" href="./index.html">Home</a></li>
+                    <li><a class="nav-link" href="./index.html">About</a></li>
+                    <li><a class="nav-link" href="./index.html">Service</a></li>
+                    <li><a class="nav-link" href="./index.html">Contact</a></li>
+                    <li><a class="nav-link" href="./index.html">Login</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="container ">
         <div class="row">
-            <div class="col-lg-3 col-md-4 col-md-4 col-12 box blue">
-                <img src="http://www.greetlabs.com/images/logo.png"/>
+            <div class="col-lg-3 col-md-4 col-md-6 col-12 ">
+                <h4>Web Development</h4>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque dignissimos a facilis provident doloribus optio quasi, minus dolores aut architecto omnis culpa sequi pariatur, ratione inventore natus quod at reprehenderit.</p>
             </div>
             <div class="col-3">
-                <img src="http://www.greetlabs.com/images/logo.png"/>
+                <h4>App Development</h4>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque dignissimos a facilis provident doloribus optio quasi, minus dolores aut architecto omnis culpa sequi pariatur, ratione inventore natus quod at reprehenderit.</p>
             </div>
             <div class="col-3">
-                <img src="http://www.greetlabs.com/images/logo.png"/>
+                <h4>Mobile Development</h4>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque dignissimos a facilis provident doloribus optio quasi, minus dolores aut architecto omnis culpa sequi pariatur, ratione inventore natus quod at reprehenderit.</p>
             </div>
             <div class="col-3">
-                <img src="http://www.greetlabs.com/images/logo.png"/>
+                <h4>Cloud Development</h4>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque dignissimos a facilis provident doloribus optio quasi, minus dolores aut architecto omnis culpa sequi pariatur, ratione inventore natus quod at reprehenderit.</p>
             </div>
         
         </div>
     </div>
+    <footer>
+        <div class="container-fluid bg-dark text-white">
+            <div class="row">
+                <div class="col-md-4">
+                    <img height="50px" src="http://www.greetlabs.com/images/logo-dark.png">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas obcaecati temporibus, ex dolores eaque nisi ullam consequatur quo pariatur aspernatur eum vitae odio, beatae dolorum. Quibusdam veniam
+                         impedit repudiandae voluptate!</p>
+
+                </div>
+                <div class="col-md-4">
+                    <ul class="navber-nav">
+                        <li><a class="nav-link" href="">Home</a></li>
+                        <li><a class="nav-link" href="">Home</a></li>
+
+                        <li><a class="nav-link" href="">Home</a></li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <ul class="navbar-nav">
+                    <li><a class="nav-link" href="">Home</a></li>
+                    <li><a class="nav-link" href="">About</a></li>
+                    <li><a class="nav-link" href="">Service</a></li>
+                    <li><a class="nav-link" href="">Service</a></li>
+                    <li><a class="nav-link" href="">Service</a></li>
+                    <li><a class="nav-link" href="">Service</a></li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col bg-dark text-white">
+                <div class=
+                "col-half">Copy rights @ 2018 All Right Reserved by &nbsp;<a><span style="background-color:
+                 blue; color: black;"><b>Greet Labs Pvt.</b></span></a></div>
+                 <div class="copyright-links">
+                    <a href="terms-of-use.php">Terms of Use</a> /
+                    <a href="Privacy-statement.php">Privacy Policy</a> /
+                    <a href="sitemap.php">Site Map</a> /
+                    <a href="payments.php"><span style="background-color: brown; color: aquamarine;">Payments</span></a>
+                 </div>
+            </div>
+        </div>
+    </footer>
     
 </body>
 </html>
